@@ -55,10 +55,14 @@
   text-decoration: none;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  z-index: 1;
 }
 
 .header__main-illusration {
@@ -68,14 +72,6 @@
   bottom: 0;
   right: 0;
   z-index: 2;
-}
-
-.header__square-pic {
-  background-color: #2f80ed;
-  position: absolute;
-  top: 64px;
-  right: 0;
-  z-index: 1;
 }
 
 /*------------DESCRIPTION-------------*/
@@ -91,7 +87,6 @@
   justify-content: space-between;
   width: 80%;
   margin: auto;
-  width: 80%;
 }
 
 .two-columns__brief {
@@ -306,7 +301,6 @@
 .footer-columns{
   display: flex;
   width: 90%;
-  display: flex;
   justify-content: space-between;
   height: 250px;
   margin: auto;
@@ -327,19 +321,6 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-}
-
-.footer__column_content_copyright {
-
-  
-}
-
-.footer__column_content_info {
-
-}
-
-.footer__column__content_social {
-
 }
 
 .footer__column-heading {
