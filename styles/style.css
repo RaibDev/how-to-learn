@@ -291,7 +291,7 @@
 
 .table__heading_theme_dark {
   color: #fff;
-  z-index: 1; /* Ошибся здесь вообще со значением font-weight */
+  z-index: 1; 
 }
 
 .table__text_theme_dark {
@@ -309,7 +309,7 @@
   padding: 60px 0 40px;
 }
 
-.footer-columns{
+.footer__columns{
   display: flex;
   width: 90%;
   justify-content: space-between;
@@ -317,7 +317,7 @@
   margin: auto;
 }
 
-.footer__column_content_copyright {  /* Задумался насчет того, насколько правильно описывал модификаторы, не используя сам footer__column, _content_info, _content_social */
+.footer__column_content_copyright {  
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
@@ -329,10 +329,11 @@
 }
 
 .footer__author {
-  margin: 0;  /* Любопытно уточнение касательно правок с отступами. Перед отправкой проверял в хроме, мозилле и яндексе, своими глазами разницу не заметил особо(делал уже без добавления заметных границ). Вы замечаете из-за насмотренности или по каким-то другим фишкам? */
+  margin: 0;  
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  padding: 18px 0;
 }
 
 .footer__column-heading {
