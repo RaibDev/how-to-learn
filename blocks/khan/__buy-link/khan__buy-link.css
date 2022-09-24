@@ -5,4 +5,12 @@
   color: #2f80ed;
   padding-left: 48px;
   text-decoration: none;
+  max-height: 42px;
+}
+
+.khan__buy-link:hover {
+  text-decoration: underline;
+  color: blueviolet;
+  transition: 1s;
+  background-color: aliceblue;
 }

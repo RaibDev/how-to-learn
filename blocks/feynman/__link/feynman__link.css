@@ -8,3 +8,10 @@
   right: 41px;
   top: 50%;
 }
+
+.feynman__link:hover {
+  text-decoration: underline;
+  color: blueviolet;
+  transition: 1s;
+  background-color: aliceblue;
+}
